@@ -58,16 +58,42 @@ body {
      list-style-type: none;
      margin-right: 20px;
  }
+ header{
+     display: inline;
+ }
  nav{
      background-color: #00a2c6;
      padding: 5px;
+     position: sticky;
+     top: 0;
  }
  body{
      font-family: 'Quicksand', sans-serif;
      margin: 0;
      padding: 0;
+
  }
  main{
      padding: 20px;
+     overflow: auto;
  }
+#content {
+    float: left;
+    width: 75%;
+}
+aside{
+    float: right;
+    width: 25%;
+    padding: 20px;
+}
+* {
+    box-sizing: border-box
+}
+@media screen and (max-width: 1000px){
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
 
+}
