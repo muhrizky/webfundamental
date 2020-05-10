@@ -101,3 +101,29 @@ aside{
     }
 
 }
+.flex-container-column{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: right;
+}
+.flex-container-row{
+    display: flex;
+    margin: 0 auto;
+}
+.fa {
+    padding: 12px;
+    font-size: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    background: #00c8eb;
+    color: white;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
